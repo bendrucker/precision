@@ -1,0 +1,39 @@
+{
+  "name": "precision",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Find the decimal precision of a given number",
+  "license": "MIT",
+  "repository": "bendrucker/precision",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "number",
+    "decimal",
+    "precision",
+    "places",
+    "round"
+  ],
+  "dependencies": {
+    "is-finite": "^1.0.1",
+    "is-integer": "^1.0.4",
+    "parse-exponential": "^1.0.1"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0",
+    "standard": "^4.0.0"
+  },
+  "files": [
+    "index.js",
+    "readme.md"
+  ]
+}
