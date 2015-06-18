@@ -3,9 +3,7 @@
 var numberIsFinite = require('is-finite')
 var parseExponential = require('parse-exponential')
 
-exports = module.exports = precision
-
-function precision (value) {
+module.exports = function precision (value) {
   if (!numberIsFinite(value)) {
     throw new Error('Value must be a finite number')
   }
