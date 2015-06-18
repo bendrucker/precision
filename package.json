@@ -24,9 +24,8 @@
     "round"
   ],
   "dependencies": {
-    "is-finite": "^1.0.1",
-    "is-integer": "^1.0.4",
-    "parse-exponential": "^1.0.1"
+    "is-finite": "~1.0.1",
+    "parse-exponential": "~1.0.1"
   },
   "devDependencies": {
     "tape": "^4.0.0",
