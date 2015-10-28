@@ -6,6 +6,12 @@ var precision = require('./')
 test('precision', function (t) {
   t.equal(precision(0), 0)
   t.equal(precision(1), 0)
+  t.equal(precision(10), 0)
+  t.equal(precision(100), 0)
+  t.equal(precision(200), 0)
+  t.equal(precision(-100), 0)
+  t.equal(precision(-200), 0)
+
 
   t.equal(precision(1.1), 1)
   t.equal(precision(1.12), 2)

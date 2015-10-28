@@ -10,7 +10,9 @@ module.exports = function precision (value) {
 
   var exponential = parseExponential(value.toExponential())
   var coefficient = exponential[0]
-  var exponent = exponential[1]
+  var exponent = parseInt(exponential[1], 10)
   var places = (coefficient.split('.')[1] || '').length
-  return places + (-1 * parseInt(exponent, 10))
+  return !places && exponent > 0
+    ? 0
+    : places + (-1 * exponent)
 }
