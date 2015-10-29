@@ -12,7 +12,6 @@ test('precision', function (t) {
   t.equal(precision(-100), 0)
   t.equal(precision(-200), 0)
 
-
   t.equal(precision(1.1), 1)
   t.equal(precision(1.12), 2)
   t.equal(precision(12.3), 1)
