@@ -1,4 +1,4 @@
-# precision [![Build Status](https://travis-ci.org/bendrucker/precision.svg?branch=master)](https://travis-ci.org/bendrucker/precision)
+# precision [![Build Status](https://travis-ci.org/bendrucker/precision.svg?branch=master)](https://travis-ci.org/bendrucker/precision) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/precision.svg)](https://greenkeeper.io/)
 
 > Find the decimal precision of a given number
 
